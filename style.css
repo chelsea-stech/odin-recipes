@@ -1,0 +1,36 @@
+/* index.html */
+#title {
+    text-align: center;
+    color: cadetblue;
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.index {
+    background-color: lightcoral;
+
+}
+.links {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-style: oblique;
+}
+
+/* lasagna.html */
+#header {
+    text-align: center;
+    color: orangered;
+    font-size: 64px;
+}
+.lasagna{
+    background-color: rgb(73, 57, 57);
+}
+
+/* banana-bread.html */
+.banana{
+    background-color: yellow;
+}
+
+/* grilled-cheese.html */
+.cheese{
+    background-color: chocolate;
+}
