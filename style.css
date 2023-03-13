@@ -22,7 +22,7 @@
     font-size: 64px;
 }
 .lasagna{
-    background-color: rgb(73, 57, 57);
+    background-color: rgb(211, 161, 24);
 }
 
 /* banana-bread.html */
@@ -32,5 +32,5 @@
 
 /* grilled-cheese.html */
 .cheese{
-    background-color: chocolate;
+    background-color: rgba(163, 100, 54, 0.774);
 }
