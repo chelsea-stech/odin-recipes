@@ -18,11 +18,19 @@
 /* lasagna.html */
 #header {
     text-align: center;
-    color: orangered;
+    color: rgb(224, 111, 70);
     font-size: 64px;
 }
 .lasagna{
     background-color: rgb(211, 161, 24);
+}
+
+.laspic{
+    border: 20px solid orangered;
+    border-style: dashed;
+}
+h4, span {
+    padding: 5px;
 }
 
 /* banana-bread.html */
@@ -30,7 +38,37 @@
     background-color: yellow;
 }
 
+.banpic{
+    border: 20px solid rgb(96, 192, 96);
+    border-top-color: darkslategray;
+    border-bottom-color: darkslategray;
+    border-style: ridge;
+}
+
+h4, span {
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 5px;
+}
+
 /* grilled-cheese.html */
 .cheese{
-    background-color: rgba(163, 100, 54, 0.774);
+    background-color: rgba(136, 83, 46, 0.774);
+}
+
+.grcpic{
+    border: 20px solid purple;
+    border-bottom-color: blue;
+    border-top-color: chartreuse;
+    border-left-color: darkorange;
+    border-style: dotted;
+}
+
+.ingredients, .list {
+    padding: 5px;
+    display: flex;
+}
+span, .list {
+    border: 1px solid black;
+    margin-left: 5px;
 }
