@@ -29,8 +29,12 @@
     border: 20px solid orangered;
     border-style: dashed;
 }
-h4, span {
+.serving{
     padding: 5px;
+    margin-left: 0px;
+    margin-top: -10px;
+    border: 2px solid black;
+    display: inline-block;
 }
 
 /* banana-bread.html */
@@ -45,9 +49,12 @@ h4, span {
     border-style: ridge;
 }
 
-h4, span {
-    margin-left: -10px;
+.loaf {
+    margin-left: -5px;
     margin-top: -10px;
+    margin-bottom: -10px;
+    border: 2px solid black;
+    display: inline-block;
     padding: 5px;
 }
 
