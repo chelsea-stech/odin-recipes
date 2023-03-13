@@ -10,7 +10,10 @@
 
 }
 .cup{
-    margin-left: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .links {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
