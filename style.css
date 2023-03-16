@@ -5,20 +5,40 @@
     font-size: 64px;
     font-family: 'Times New Roman', Times, serif;
 }
-.index {
-    background-color: lightcoral;
 
+.index-container {
+    background-color: lightcoral;
+    
 }
+
 .cup{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+    padding: 10px;
+
 }
+
 .links {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
     font-style: oblique;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: aquamarine;
+}
+
+.container{
+    border: 5px solid yellowgreen;
+    display: flex;
 }
 
 /* lasagna.html */
@@ -27,6 +47,7 @@
     color: rgb(224, 111, 70);
     font-size: 64px;
 }
+
 .lasagna{
     background-color: rgb(211, 161, 24);
 }
@@ -35,6 +56,7 @@
     border: 20px solid orangered;
     border-style: dashed;
 }
+
 .serving{
     padding: 5px;
     margin-left: 0px;
@@ -81,6 +103,7 @@
     padding: 5px;
     display: flex;
 }
+
 span, .list {
     border: 1px solid black;
     margin-left: 5px;
