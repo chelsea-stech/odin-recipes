@@ -1,4 +1,8 @@
 /* index.html */
+.index-container {
+    background-color: lightcoral;
+}
+
 #title {
     text-align: center;
     color: cadetblue;
@@ -6,18 +10,77 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.index-container {
-    background-color: lightcoral;
+nav {
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-item {
+   /* border: 1px solid white;  debugging purposes */
+    height: 50px;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.nav-one {
+    background-color: lawngreen;
+    flex: 1;
+    text-align: center;
+}
+
+.nav-two {
+    background-color: aqua;
+    flex: 1;
+    text-align: center;
+}
+
+.nav-three {
+    background-color: mediumpurple;
+    flex: 1;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container-item {
+   /* border: 1px solid white;  debugging */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first-item {
+    width: 28%;
+    height: 28%;
     
 }
 
-.cup{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+.second-item {
     padding: 10px;
+    width: 19%;
+    height: 19%;
+}
 
+.last-item {
+    padding: 10px;
+    width: 30%;
+    height: 30%;
 }
 
 .links {
@@ -27,6 +90,7 @@
     padding: 10px;
     text-align: center;
     display: flex;
+    margin: auto;
 }
 
 .container > div {
