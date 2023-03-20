@@ -25,9 +25,13 @@ nav {
 
 .nav-item {
    /* border: 1px solid white;  debugging purposes */
-    height: 50px;
+    height: 40px;
     padding: 10px;
-    padding-top: 15px;
+    padding-top: 10px;
+}
+
+.nav-one, .nav-two, .nav-three {
+    text-decoration: none;
 }
 
 .nav-one {
